@@ -57,5 +57,5 @@ spec:
     spec:
       serviceAccountName: scheduler-rr
       containers:
-      - image: <your_registry>/scheduler-round-robin
+      - image: feloy/scheduler-round-robin
         name: scheduler-round-robin
